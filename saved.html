@@ -1,0 +1,315 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#08070B">
+    <meta name="description" content="Revisit your saved KELORA LUXE interior inspiration, event ideas and fragrance selections.">
+    <title>Saved Items | KELORA LUXE</title><link rel="icon" type="image/png" href="KELORA LUXE.png">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="interiors.css">
+
+</head><body class="interiors-page saved-page"><!-- PAGE LOADER -->
+<div class="page-loader" id="pageLoader">
+    <img src="KELORA LUXE.png" alt="KELORA LUXE Logo">
+</div>
+
+<!-- HEADER -->
+<header class="site-header" id="siteHeader">
+    <div class="nav-container">
+
+        <a href="index.html" class="brand">
+            <img
+                src="KELORA LUXE.png"
+                alt="KELORA LUXE Logo"
+                class="brand-logo"
+            >
+
+            <span class="brand-name">
+                KELORA <span class="gold-text">LUXE</span>
+            </span>
+        </a>
+
+        <button
+            class="menu-toggle"
+            id="menuToggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="mainNavigation"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+   <nav class="main-navigation" id="mainNavigation">
+            <a href="index.html" class="nav-link active">Home</a>
+            <a href="interiors.html" class="nav-link">Interiors</a>
+            <a href="events.html" class="nav-link">Events</a>
+            <a href="kitchens.html" class="nav-link">kitchens</a>
+              <a href="living rooms.html" class="nav-link">living rooms</a>
+              <a href="event gallery.html" class="nav-link">event gallery</a>
+             <a href="fragrances.html" class="nav-link">Fragrances</a>
+              <a href="fragrances gallery.html" class="nav-link">Fragrances gallery</a> 
+              <a href="bedrooms.html" class="nav-link">bedrooms</a>
+              <a href="sample details.html" class="nav-link">sample details</a>
+                <a href="saved.html" class="nav-link">saved</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="contact.html" class="nav-link nav-contact">
+                Contact Us
+            </a>
+        </nav>
+
+    </div>
+</header>
+
+<main>
+
+    <!-- SAVED ITEMS HERO -->
+    <section class="interiors-hero">
+
+        <div class="interiors-hero-image">
+            <img
+                src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1600&q=80"
+                alt="Elegant interior inspiration"
+                fetchpriority="high"
+            >
+        </div>
+
+        <div class="interiors-hero-overlay"></div>
+
+        <div class="container interiors-hero-content">
+
+            <span class="eyebrow">YOUR PERSONAL COLLECTION</span>
+
+            <h1>
+                Your Favourites.
+                <span class="gold-text">All in One Place.</span>
+            </h1>
+
+            <p>
+                Keep the interior styles, event inspiration and
+                fragrance ideas you love together in your personal
+                saved collection.
+            </p>
+
+            <div class="interiors-hero-actions">
+                <a href="#savedCollection" class="btn btn-primary">
+                    View Saved Items
+                </a>
+
+                <a href="index.html" class="btn btn-outline">
+                    Explore the Website
+                </a>
+            </div>
+
+            <div class="interiors-hero-signature">
+                YOUR STYLE ✦ YOUR INSPIRATION
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SAVED COLLECTION INTRO -->
+    <section class="section interiors-intro">
+        <div class="container interiors-intro-grid">
+
+            <div>
+                <span class="eyebrow">YOUR COLLECTION</span>
+
+                <h2 class="interiors-intro-heading">
+                    Save What You
+                    <span class="gold-text">Love.</span>
+                </h2>
+            </div>
+
+            <div class="interiors-intro-copy">
+                <p>
+                    Use the save buttons on supported gallery cards
+                    to keep your favourites for later.
+                </p>
+
+                <p>
+                    Your saved collection will use this browser's
+                    local storage. It is not a customer account and
+                    will not automatically sync between devices
+                    or browsers.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SAVED COLLECTION -->
+    <section class="section" id="savedCollection">
+        <div class="container">
+
+            <div class="section-heading">
+                <span class="eyebrow">YOUR PERSONAL EDIT</span>
+
+                <h2>
+                    Saved
+                    <span class="gold-text">Items</span>
+                </h2>
+
+                <p id="savedItemCount" aria-live="polite">
+                    Your saved collection will appear here.
+                </p>
+            </div>
+
+            <!-- JAVASCRIPT WILL RENDER SAVED ITEMS HERE -->
+            <div
+                class="interior-inspiration-grid saved-items-grid"
+                id="savedItemsGrid"
+                aria-live="polite"
+            >
+                <!-- Saved cards will be inserted by saved.js. -->
+            </div>
+
+            <!-- EMPTY STATE -->
+            <div class="interior-enquiry-box" id="savedEmptyState">
+                <span class="eyebrow">NOTHING SAVED YET</span>
+
+                <h2>
+                    Your Collection Awaits
+                    <span class="gold-text">You.</span>
+                </h2>
+
+                <p>
+                    Browse our collections and save the items
+                    you would like to revisit.
+                </p>
+
+                <div class="interiors-hero-actions">
+                    <a href="interiors.html" class="btn btn-primary">
+                        Explore Interiors
+                    </a>
+
+                    <a href="events.html" class="btn btn-outline">
+                        Explore Events
+                    </a>
+
+                    <a href="fragrances.html" class="btn btn-outline">
+                        Explore Fragrances
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- SAVED COLLECTION GUIDANCE --><section class="section saved-guidance">
+    <div class="container">
+        <div class="section-heading">
+            <span class="eyebrow">YOUR PERSONAL COLLECTION</span>
+            <h2>Keep Your <span class="gold-text">Inspiration Close</span></h2>
+            <p>Save the designs and ideas you love as you explore KELORA LUXE.</p>
+        </div>
+
+        <div class="experience-grid">
+            <article class="basic-card">
+                <span class="eyebrow">01 / DISCOVER</span>
+                <h3>Explore the Collections</h3>
+                <p>Browse interior styles, event inspiration and fragrance collections to find what suits you.</p>
+                <a href="interiors.html" class="text-link">Explore Interiors →</a>
+            </article>
+
+            <article class="basic-card">
+                <span class="eyebrow">02 / SAVE</span>
+                <h3>Build Your Shortlist</h3>
+                <p>Once the save feature is connected, your chosen items will appear in this collection on this browser.</p>
+                <span class="package-note">Browser storage · No account required</span>
+            </article>
+
+            <article class="premium-card">
+                <span class="eyebrow">03 / ENQUIRE</span>
+                <h3>Make It Yours</h3>
+                <p>Discuss your preferred style or service with KELORA LUXE directly through WhatsApp.</p>
+                <a
+                    href="https://wa.me/2348066159044?text=Hello%20KELORA%20LUXE%2C%20I%27d%20like%20to%20enquire%20about%20your%20services."
+                    class="btn btn-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >Make an Enquiry</a>
+            </article>
+        </div>
+
+        <p class="gallery-disclaimer">
+            Saved items will be stored locally on this browser after the save feature is implemented.
+            They will not automatically sync between devices.
+        </p>
+    </div>
+</section>
+<!-- FOOTER --><footer class="site-footer">
+    <div class="container footer-main">
+        <div class="footer-brand">
+            <a href="index.html" class="brand">
+                <img
+                    src="KELORA LUXE.png"
+                    alt="KELORA LUXE Logo"
+                    class="brand-logo"
+                >
+                <span class="brand-name">
+                    KELORA <span class="gold-text">LUXE</span>
+                </span>
+            </a>
+
+            <p>Interiors ✦ Events ✦ Fragrances</p>
+            <p>Luxury inspiration, thoughtfully curated.</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Explore</h3>
+            <a href="index.html">Home</a>
+            <a href="interiors.html">Interiors</a>
+            <a href="events.html">Events</a>
+            <a href="fragrances.html">Fragrances</a>
+            <a href="saved.html">Saved Items</a>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <a href="mailto:Okamgrace3@gmail.com">Okamgrace3@gmail.com</a>
+            <a href="https://wa.me/2348066159044?text=Hello%20KELORA%20LUXE%2C%20I%27d%20like%20to%20make%20an%20enquiry."
+               target="_blank"
+               rel="noopener noreferrer">WhatsApp: +234 806 615 9044</a>
+        </div>
+    </div>
+
+    <div class="container footer-bottom">
+        <p>
+            &copy; <span id="currentYear"></span> KELORA LUXE.
+            All rights reserved.
+        </p>
+        <p>Designed with elegance.</p>
+    </div>
+</footer>
+
+<!-- IMAGE LIGHTBOX -->
+<div
+    class="image-lightbox"
+    id="imageLightbox"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Image preview"
+    aria-hidden="true"
+>
+    <button
+        class="lightbox-close"
+        id="lightboxClose"
+        type="button"
+        aria-label="Close image preview"
+    >&times;</button>
+
+    <div class="lightbox-content">
+        <img id="lightboxImage" src="" alt="">
+        <p id="lightboxTitle"></p>
+    </div>
+</div>
+
+<!-- JAVASCRIPT -->
+<script src="app.js"></script>
+<script src="saved.js"></script>
+</body>
+</html>
+
+</body>
+</html>
